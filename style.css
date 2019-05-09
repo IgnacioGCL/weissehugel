@@ -1,0 +1,187 @@
+@font-face {
+    font-family: 'Weisse Hugel';
+    src: url('/assets/fonts/Monotype\ Corsiva.ttf');
+}
+
+h1,
+p,
+span {
+    font-family: 'Roboto';
+}
+
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.f-1 {
+    flex: 1;
+}
+
+.title-section {
+    font-size: 2.5em;
+}
+
+/* Start page */
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+section {
+    min-height: 600px;
+    border-bottom: solid 1px #e5e5e5;
+}
+
+.header-content {
+    padding-left: 50px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.to-sections {
+    margin-left: 15px;
+    min-width: 200px;
+}
+
+.to-sections p {
+    font-size: 14px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    min-width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -65px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* First section */
+
+.intro {
+    background-color: black;
+}
+
+
+.logo-with-guitar {
+    height: 600px;
+}
+
+.appointment-container {
+    width: 500px;
+    color: white;
+}
+
+.appointment {
+    text-align: justify;
+}
+
+/* Woods section */
+
+.woods-section {
+    justify-content: space-around;
+}
+
+.wood-selector-and-prev-container {
+    width: 100%;
+}
+
+#wood-prev {
+    height: 400px;
+    width: 300px;
+    border: solid 1px black;
+    background-position: center;
+    background-size: cover;
+}
+
+#wood-text {
+    font-size: 1.5em;
+}
+
+.wood-prev-selector-container {
+    padding: 20px;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wood-prev-selector {
+    height: 35px;
+    width: 35px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.wood-prev-row {
+    display: flex;
+    margin-bottom: 20px;
+}
