@@ -39,21 +39,49 @@
             </button>
             <!-- Guitars slider -->
             <div class="guitars-slider d-flex justify-content-center">
-                <div class="guitar-slide d-flex flex-column justify-content-between active">
-                    <img class="guitar-img" src="/assets/img/guitars/amathone-jazz-2.jpg" alt="Amathone Jazz"/>
-                    <p class="guitar-name">Amathone Jazz</p>
+                <div class="guitar-slide d-flex active">
+                    <div class="d-flex justify-content-end align-items-center f-1 guitar-img-container">
+                        <img class="guitar-img" src="/assets/img/guitars/amathone-jazz-2.jpg" alt="Amathone Jazz" />
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center f-1 guitar-text-section">
+                        <p class="guitar-name">Amathone Jazz</p>
+                        <p class="guitar-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto, nesciunt, dolore
+                            placeat impedit vel odio sint magnam soluta sunt doloremque repellat earum deserunt numquam
+                            commodi vitae iure. Quod, accusantium.</p>
+                    </div>
                 </div>
-                <div class="guitar-slide d-flex flex-column justify-content-between inactive">
-                    <img class="guitar-img" src="/assets/img/guitars/koralle-24-t.jpg" alt="Koralle"/>
-                    <p class="guitar-name">Koralle</p>
+                <div class="guitar-slide d-flex justify-content-between inactive">
+                    <div class="d-flex justify-content-end align-items-center f-1 guitar-img-container">
+                        <img class="guitar-img" src="/assets/img/guitars/koralle-24-t.jpg" alt="Koralle" />
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center f-1 guitar-text-section">
+                        <p class="guitar-name">Koralle</p>
+                        <p class="guitar-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto, nesciunt, dolore
+                            placeat impedit vel odio sint magnam soluta sunt doloremque repellat earum deserunt numquam
+                            commodi vitae iure. Quod, accusantium.</p>
+                    </div>
                 </div>
-                <div class="guitar-slide d-flex flex-column justify-content-between inactive">
-                    <img class="guitar-img" src="/assets/img/guitars/guayacane-24-t-ssh.jpg" alt="Guayacanne"/>
-                    <p class="guitar-name">Guayacanne</p>
+                <div class="guitar-slide d-flex justify-content-between inactive">
+                    <div class="d-flex justify-content-end align-items-center f-1 guitar-img-container">
+                        <img class="guitar-img" src="/assets/img/guitars/guayacane-24-t-ssh.jpg" alt="Guayacanne" />
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center f-1 guitar-text-section">
+                        <p class="guitar-name">Guayacanne</p>
+                        <p class="guitar-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto, nesciunt, dolore
+                            placeat impedit vel odio sint magnam soluta sunt doloremque repellat earum deserunt numquam
+                            commodi vitae iure. Quod, accusantium.</p>
+                    </div>
                 </div>
-                <div class="guitar-slide d-flex flex-column justify-content-between inactive">
-                    <img class="guitar-img" src="/assets/img/guitars/redemption_2.jpg" alt="Redmption"/>
-                    <p class="guitar-name">Redemption</p>
+                <div class="guitar-slide d-flex justify-content-between inactive">
+                    <div class="d-flex justify-content-end align-items-center f-1 guitar-img-container">
+                        <img class="guitar-img" src="/assets/img/guitars/redemption_2.jpg" alt="Redmption" />
+                    </div>
+                    <div class="d-flex flex-column justify-content-center align-items-center f-1 guitar-text-section">
+                        <p class="guitar-name">Redemption</p>
+                        <p class="guitar-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto, nesciunt, dolore
+                            placeat impedit vel odio sint magnam soluta sunt doloremque repellat earum deserunt numquam
+                            commodi vitae iure. Quod, accusantium.</p>
+                    </div>
                 </div>
             </div>
             <button class="arrows d-flex justify-content-center ripple" onclick="nextSlide('right')">
@@ -327,8 +355,33 @@
             </div>
         </div>
     </section>
-    <footer>
-
+    <footer class="d-flex flex-column align-items-center justify-content-center">
+        <div class="d-flex justify-content-between social-section">
+            <div class="d-flex justify-content-center align-items-center social-link">
+                <a class="d-flex justify-content-center align-items-center">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center align-items-center social-link">
+                <a class="d-flex justify-content-center align-items-center">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center align-items-center social-link">
+                <a class="d-flex justify-content-center align-items-center">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+            </div>
+            <div class="d-flex justify-content-center align-items-center social-link">
+                <a class="d-flex justify-content-center align-items-center">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <div class="d-flex justify-content-between contact-section">
+            <p>Tel: <a href="tel:">+34 123 456 789</a></p>
+            <p>Email: <a href="email:">correo@gmail.com</a></p>
+        </div>
     </footer>
     <script src="./index.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>

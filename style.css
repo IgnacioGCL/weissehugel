@@ -34,6 +34,10 @@ h2 {
     justify-content: center;
 }
 
+.justify-content-end {
+    justify-content: flex-end;
+}
+
 .justify-content-between {
     justify-content: space-between;
 }
@@ -172,6 +176,7 @@ section {
 
 .slider {
     width: 99%;
+    margin-bottom: 50px;
 }
 
 .arrows {
@@ -183,7 +188,7 @@ section {
     cursor: pointer;
 }
 
-.arrows:active{
+.arrows:active {
     border: none;
 }
 
@@ -195,17 +200,28 @@ section {
     width: 80%;
 }
 
-.guitar-slide{
-    min-height: 660px;
+.guitar-slide {
+    min-height: 560px;
+}
+
+.guitar-img-container{
+    padding-right: 10%;
 }
 
 .guitar-img {
     width: 200px;
-    transform: rotate(45deg);
+}
+
+.guitar-text-section{
+    padding-right: 10%;
 }
 
 .guitar-name {
     font-size: 2em;
+}
+
+.guitar-description{
+    text-align: justify;
 }
 
 /* Woods section */
@@ -254,4 +270,37 @@ section {
 .wood-prev-row {
     display: flex;
     margin-bottom: 20px;
+}
+
+/* Footer section */
+
+footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+footer ion-icon {
+    font-size: 25px;
+}
+
+.social-section{
+    width: 250px;
+}
+
+.social-link{
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+.contact-section{
+    width: 350px;
+}
+
+.contact-section a{
+    text-decoration: underline;
+    color: white;
 }
