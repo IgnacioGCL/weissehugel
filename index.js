@@ -42,3 +42,11 @@ function findIndex(objectToIterate) {
     }
     return index;
 }
+
+function goTo(y) {
+    window.scroll({
+        top: y,
+        left: 0,
+        behavior: 'smooth'
+    });
+}

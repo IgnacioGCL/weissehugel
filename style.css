@@ -3,9 +3,7 @@
     src: url('/assets/fonts/Monotype\ Corsiva.ttf');
 }
 
-h1,
-p,
-span {
+body {
     font-family: 'Roboto';
 }
 
@@ -89,6 +87,13 @@ header {
 section {
     min-height: 600px;
     border-bottom: solid 1px #e5e5e5;
+}
+
+.go-to-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
 }
 
 .header-content {
@@ -204,7 +209,7 @@ section {
     min-height: 560px;
 }
 
-.guitar-img-container{
+.guitar-img-container {
     padding-right: 10%;
 }
 
@@ -212,7 +217,7 @@ section {
     width: 200px;
 }
 
-.guitar-text-section{
+.guitar-text-section {
     padding-right: 10%;
 }
 
@@ -220,8 +225,12 @@ section {
     font-size: 2em;
 }
 
-.guitar-description{
+.guitar-description {
     text-align: justify;
+}
+
+.show-more {
+    color: white;
 }
 
 /* Woods section */
@@ -272,6 +281,17 @@ section {
     margin-bottom: 20px;
 }
 
+/* Contact section */
+
+.contact-images {
+    height: 300px;
+}
+
+.contact-section {
+    background-color: black;
+    color: white;
+}
+
 /* Footer section */
 
 footer {
@@ -284,11 +304,11 @@ footer ion-icon {
     font-size: 25px;
 }
 
-.social-section{
+.social-section {
     width: 250px;
 }
 
-.social-link{
+.social-link {
     background-color: white;
     color: black;
     height: 45px;
@@ -296,11 +316,11 @@ footer ion-icon {
     border-radius: 50%;
 }
 
-.contact-section{
+/* .contact-section{
     width: 350px;
-}
+} */
 
-.contact-section a{
+.contact-section a {
     text-decoration: underline;
     color: white;
 }

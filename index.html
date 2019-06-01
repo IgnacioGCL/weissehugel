@@ -17,10 +17,18 @@
         <div class="header-content d-flex align-items-center">
             <h1>WH</h1>
             <div class="to-sections d-flex justify-content-between">
-                <p>Guitars</p>
-                <p>Basses</p>
-                <p>Woods</p>
-                <p>Contact</p>
+                <button class="go-to-button" onclick="goTo(505)">
+                    <p>Guitars</p>
+                </button>
+                <button class="go-to-button" onclick="goTo(1230)">
+                    <p>Basses</p>
+                </button>
+                <button class="go-to-button" onclick="goTo(0)">
+                    <p>Woods</p>
+                </button>
+                <button class="go-to-button" onclick="goTo(400)">
+                    <p>Contact</p>
+                </button>
             </div>
         </div>
     </header>
@@ -44,10 +52,14 @@
                         <img class="guitar-img" src="/assets/img/guitars/amathone-jazz-2.jpg" alt="Amathone Jazz" />
                     </div>
                     <div class="d-flex flex-column justify-content-center align-items-center f-1 guitar-text-section">
-                        <p class="guitar-name">Amathone Jazz</p>
-                        <p class="guitar-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto, nesciunt, dolore
-                            placeat impedit vel odio sint magnam soluta sunt doloremque repellat earum deserunt numquam
-                            commodi vitae iure. Quod, accusantium.</p>
+                        <p class="guitar-name">Amathone</p>
+                        <p class="guitar-description">La serie Amathone fue el resultado de dar solución a los problemas
+                            que habitualmente presentan las guitarras de cuerpo hueco tradicionales. Única en su género,
+                            permite controlar el comportamiento del aire de su interior y en consecuencia la vibración
+                            de las cuerdas. Carente de notas débiles y de realimentación (Feedback) es la guitarra ideal
+                            tanto para los amantes del Jazz como de los guitarristas necesitados de un instrumento capaz
+                            de comportarse de forma ideal en cualquier terreno.</p>
+                        <a class="show-more" href="guitars/amathone.html">Ver mas</a>
                     </div>
                 </div>
                 <div class="guitar-slide d-flex justify-content-between inactive">
@@ -56,9 +68,10 @@
                     </div>
                     <div class="d-flex flex-column justify-content-center align-items-center f-1 guitar-text-section">
                         <p class="guitar-name">Koralle</p>
-                        <p class="guitar-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto, nesciunt, dolore
-                            placeat impedit vel odio sint magnam soluta sunt doloremque repellat earum deserunt numquam
-                            commodi vitae iure. Quod, accusantium.</p>
+                        <p class="guitar-description">La Koralle fue la primera de las creaciones de Weisse Hügel. Su
+                            nombre lo debe a que el cuerpo del prototipo se realizó en madera de Padouk, también
+                            conocido como Coral. Su personalización ha dado lugar a múltiples variantes, tanto en
+                            electrónica, acabado, como conceptuales convirtiéndola en la más vendida de la marca.</p>
                     </div>
                 </div>
                 <div class="guitar-slide d-flex justify-content-between inactive">
@@ -67,9 +80,11 @@
                     </div>
                     <div class="d-flex flex-column justify-content-center align-items-center f-1 guitar-text-section">
                         <p class="guitar-name">Guayacanne</p>
-                        <p class="guitar-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto, nesciunt, dolore
-                            placeat impedit vel odio sint magnam soluta sunt doloremque repellat earum deserunt numquam
-                            commodi vitae iure. Quod, accusantium.</p>
+                        <p class="guitar-description">La serie Guayacane fue creada para aquellos que gustan de una
+                            estética más tradicional. Su nombre, como el de la Koralle, también se debe al tipo de
+                            madera que se utilizó en la confección del primer prototipo: Guayacán verde o guayacán real.
+                            Como la primera, se ha realizado en tantas variantes como necesidades de los usuarios. Es,
+                            sin duda, la más clásica de la marca.</p>
                     </div>
                 </div>
                 <div class="guitar-slide d-flex justify-content-between inactive">
@@ -78,9 +93,11 @@
                     </div>
                     <div class="d-flex flex-column justify-content-center align-items-center f-1 guitar-text-section">
                         <p class="guitar-name">Redemption</p>
-                        <p class="guitar-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos architecto, nesciunt, dolore
-                            placeat impedit vel odio sint magnam soluta sunt doloremque repellat earum deserunt numquam
-                            commodi vitae iure. Quod, accusantium.</p>
+                        <p class="guitar-description">En cierta ocasión alguien preguntó qué tipo de electrónica
+                            montaríamos en una guitarra en caso de que hiciéramos una para Ziggy Marley. Así fue como
+                            vino al mundo la Redemption. La única Weisse Hügel diseñada a partir de su electrónica. Un
+                            instrumento tan fuera de lo corriente en formato como en concepto y polivalencia.
+                            Indudablemente una guitarra con verdadera personalidad</p>
                     </div>
                 </div>
             </div>
@@ -89,6 +106,7 @@
             </button>
         </div>
     </section>
+    <!-- Woods section -->
     <section class="d-flex flex-column align-items-center woods-section">
         <h2 class="title-section">Woods</h2>
         <div class="d-flex wood-selector-and-prev-container">
@@ -355,6 +373,16 @@
             </div>
         </div>
     </section>
+    <!-- Contact section -->
+    <section class="d-flex flex-column align-items-center contact-section">
+        <h2 class="title-section">Contact</h2>
+        <div>
+            <img class="contact-images" src="/assets//img/weisse-hugel-exterior.jpg" alt="Weisse Hügel shop">
+        </div>
+        <div>
+            <img class="contact-images" src="/assets/img/shop_location.png" alt="Weisse Hügel shop location">
+        </div>
+    </section>
     <footer class="d-flex flex-column align-items-center justify-content-center">
         <div class="d-flex justify-content-between social-section">
             <div class="d-flex justify-content-center align-items-center social-link">
@@ -378,10 +406,10 @@
                 </a>
             </div>
         </div>
-        <div class="d-flex justify-content-between contact-section">
+        <!-- <div class="d-flex justify-content-between contact-section">
             <p>Tel: <a href="tel:">+34 123 456 789</a></p>
             <p>Email: <a href="email:">correo@gmail.com</a></p>
-        </div>
+        </div> -->
     </footer>
     <script src="./index.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
