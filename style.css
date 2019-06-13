@@ -86,7 +86,29 @@ header {
 
 section {
     min-height: 600px;
-    border-bottom: solid 1px #e5e5e5;
+    background: #000;
+}
+
+hr{
+    height: 1px;
+    margin: 0;
+    border: 0;
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+/* section:before{
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: inherit;
+    background: linear-gradient(to right, red, orange);
+} */
+
+.weisse-logo {
+    height: 50px;
+    cursor: pointer;
 }
 
 .go-to-button {
@@ -254,7 +276,7 @@ section {
     background-color: white;
 }
 
-#guitar-prev{
+#guitar-prev {
     height: 400px;
     width: 300px;
 }
