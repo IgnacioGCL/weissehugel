@@ -248,9 +248,15 @@ section {
 #wood-prev {
     height: 400px;
     width: 300px;
-    border: solid 1px white;
+    /* border: solid 1px white; */
     background-position: center;
     background-size: cover;
+    background-color: white;
+}
+
+#guitar-prev{
+    height: 400px;
+    width: 300px;
 }
 
 #wood-text {
