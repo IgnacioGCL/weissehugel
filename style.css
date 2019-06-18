@@ -5,6 +5,9 @@
 
 body {
     font-family: 'Roboto';
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 
 
@@ -86,7 +89,6 @@ header {
 
 section {
     min-height: 600px;
-    background: #000;
 }
 
 hr{

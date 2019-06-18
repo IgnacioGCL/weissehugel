@@ -1,7 +1,28 @@
-body {
-    font-family: 'Roboto';
+/* First section */
+
+.first-guitar-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .guitar-title {
+    font-size: 3em;
     text-align: center;
+}
+
+.main-guitar-img{
+    height: 300px;
+}
+
+.story-container{
+    width: 60%;  
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
