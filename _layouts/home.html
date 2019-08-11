@@ -8,7 +8,7 @@
 
     <meta name="description" content="Top-quality hand made, custom guitars and basses">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link rel="icon" type="image/png" href="/assets/img/wh.png">
     <title>Weisse Hügel</title>
 </head>
@@ -19,16 +19,16 @@
             <img class="weisse-logo" src="/assets/img/wh.png" alt="Weisse Hügel" onclick="goTo(0)">
             <div class="to-sections d-flex justify-content-between">
                 <button class="go-to-button" onclick="goTo(505)">
-                    <p>Guitars</p>
+                    <p>Guitarras</p>
                 </button>
                 <button class="go-to-button" onclick="goTo(1230)">
-                    <p>Basses</p>
+                    <p>Bajos</p>
                 </button>
                 <button class="go-to-button" onclick="goTo(0)">
-                    <p>Woods</p>
+                    <p>Maderas</p>
                 </button>
                 <button class="go-to-button" onclick="goTo(400)">
-                    <p>Contact</p>
+                    <p>Contacto</p>
                 </button>
             </div>
         </div>
@@ -41,7 +41,7 @@
     <hr>
     <!-- Guitars section -->
     <section class="d-flex flex-column align-items-center guitars-section">
-        <h2 class="title-section">Guitars</h2>
+        <h2 class="title-section">Guitarras</h2>
         <div class="d-flex slider">
             <button class="arrows d-flex justify-content-center ripple" onclick="nextSlide('left')">
                 <ion-icon name="ios-arrow-back"></ion-icon>
@@ -60,7 +60,7 @@
                             de las cuerdas. Carente de notas débiles y de realimentación (Feedback) es la guitarra ideal
                             tanto para los amantes del Jazz como de los guitarristas necesitados de un instrumento capaz
                             de comportarse de forma ideal en cualquier terreno.</p>
-                        <a class="show-more" href="guitars/amathone.html">Ver mas</a>
+                        <a class="show-more" href="guitars/amathone">Ver mas</a>
                     </div>
                 </div>
                 <div class="guitar-slide d-flex justify-content-between inactive">
@@ -110,14 +110,14 @@
     <hr>
     <!-- Woods section -->
     <section class="d-flex flex-column align-items-center woods-section">
-        <h2 class="title-section">Woods</h2>
+        <h2 class="title-section">Maderas</h2>
         <div class="d-flex wood-selector-and-prev-container">
             <div style="height: 100%; width: 50%"
                 class="d-flex flex-column align-items-center justify-content-center f-1">
                 <div id="wood-prev">
                     <img id="guitar-prev" src="/assets/img/amathone.png" alt="Amathone">
                 </div>
-                <p id="wood-text">Select a wood</p>
+                <p id="wood-text">Seleccione una madera</p>
             </div>
             <div class="wood-prev-selector-container f-1">
                 <div class="wood-prev-row">
@@ -378,14 +378,14 @@
     <hr>
     <!-- Contact section -->
     <section class="d-flex flex-column align-items-center contact-section justify-content-evenly">
-        <h2 class="title-section">Contact & Location</h2>
+        <h2 class="title-section">Ubicación y contacto</h2>
         <div class="d-flex container-info align-items-center justify-content-between">
             <div>
                 <img class="contact-images" src="/assets/img/shop_location.png" alt="Weisse Hügel shop location">
             </div>
             <div>
                 <h3>Weisse Hügel</h3>
-                <p>Location: Carrer de Calàbria, 135, 08015 Barcelona</p>   
+                <p>Ubicación: Carrer de Calàbria, 135, 08015 Barcelona</p>
                 <p>Tel: <a href="tel:">+34 123 456 789</a></p>
                 <p>Email: <a href="emailto:">correo@gmail.com</a></p>
             </div>
@@ -415,12 +415,8 @@
                 </a>
             </div>
         </div>
-        <!-- <div class="d-flex justify-content-between contact-section">
-            <p>Tel: <a href="tel:">+34 123 456 789</a></p>
-            <p>Email: <a href="email:">correo@gmail.com</a></p>
-        </div> -->
     </footer>
-    <script src="./index.js"></script>
+    <script src="./js/index.js"></script>
     <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
 </body>
 
