@@ -43,6 +43,10 @@ h2 {
     justify-content: space-between;
 }
 
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
 .f-1 {
     flex: 1;
 }
@@ -332,6 +336,10 @@ footer {
 
 footer ion-icon {
     font-size: 25px;
+}
+
+.container-info{
+    width: 60%;
 }
 
 .social-section {
