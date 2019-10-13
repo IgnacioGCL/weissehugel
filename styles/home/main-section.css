@@ -1,0 +1,27 @@
+.intro {
+    background-color: black;
+}
+
+.logo-with-guitar {
+    height: 600px;
+}
+
+.appointment-container {
+    width: 500px;
+    color: white;
+}
+
+.appointment {
+    text-align: justify;
+}
+
+/* Mobile */
+
+.mobile-main {
+    padding-top: 100px;
+}
+
+.logo-with-guitar-mobile {
+    width: 100%;
+    height: auto;
+}

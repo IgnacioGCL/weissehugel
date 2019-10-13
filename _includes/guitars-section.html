@@ -1,0 +1,35 @@
+<section class="guitars-section d-sm-flex flex-column align-items-center">
+    <h2 class="section-title">Guitars</h2>
+    <div class="guitars">
+        {% for guitar in site.guitars %}
+        <a class="guitar" href="{{guitar.url}}">
+            <img class="guitar__image" src="{{guitar.mainImg}}" style="height:{{guitar.height}}" alt="{{guitar.model}} guitar">
+            <p class="guitar__model">{{guitar.model}}</p>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="guitars-section d-md-flex flex-column align-items-center justify-content-center">
+    <h2 class="section-title">Guitars</h2>
+    <div class="guitars">
+        {% for guitar in site.guitars %}
+        {% if forloop.index <= 3 %}
+        <a class="guitar" href="{{guitar.url}}">
+            <img class="guitar__image" src="{{guitar.mainImg}}" style="height:{{guitar.height}}" alt="{{guitar.model}} guitar">
+            <p class="guitar__model">{{guitar.model}}</p>
+        </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <div class="guitars">
+        {% for guitar in site.guitars %}
+        {% if forloop.index > 3 %}
+        <a class="guitar" href="{{guitar.url}}">
+            <img class="guitar__image" src="{{guitar.mainImg}}" style="height:{{guitar.height}}" alt="{{guitar.model}} guitar">
+            <p class="guitar__model">{{guitar.model}}</p>
+        </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>

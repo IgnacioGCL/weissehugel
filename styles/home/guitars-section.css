@@ -1,0 +1,57 @@
+/* Mobile */
+.d-sm-flex .guitars {
+    margin-top: 50px;
+}
+
+.d-sm-flex .guitar {
+    overflow: hidden;
+}
+
+.d-sm-flex .guitar {
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 50px;
+    padding-top: 40px;
+}
+
+.d-sm-flex .guitar__image {
+    transform: rotate(-45deg);
+}
+
+.d-sm-flex .guitar__model {
+    color: black;
+    font-size: 20px;
+}
+
+/* Desktop */
+.d-md-flex .guitars {
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly
+}
+
+.d-md-flex .guitar {
+    flex: 1;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.d-md-flex .guitar__image {
+    transform: rotate(-45deg);
+    max-height: 200px;
+}
+
+.d-md-flex .guitar__model {
+    color: black;
+    font-size: 20px;
+}

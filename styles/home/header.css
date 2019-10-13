@@ -1,0 +1,64 @@
+header {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+
+/* Desktop */
+.d-md-none.header-content {
+    padding-left: 40px;
+    height: 100px;
+    width: 100%;
+}
+
+.d-md-none .go-to-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.d-md-none .weisse-logo {
+    height: 50px;
+    cursor: pointer;
+}
+
+.d-md-none .to-sections {
+    margin-left: 15px;
+    min-width: 200px;
+}
+
+.d-md-none .to-sections p {
+    font-size: 14px;
+}
+
+/* Mobile */
+.d-sm-none.header-content{
+    padding-left: 20px;
+    height: 100px;
+    width: 100%;
+    color: #ffffff;
+}
+
+.d-sm-none .weisse-logo {
+    height: 35px;
+    margin-right: 5px;
+    cursor: pointer;
+    display: block;
+}
+
+.d-sm-none .go-to-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.d-sm-none .to-sections{
+    display: block;
+}

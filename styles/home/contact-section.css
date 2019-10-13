@@ -1,0 +1,51 @@
+.contact-section {
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.store-outside {
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+.info-list a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.info-list span {
+    text-decoration: underline;
+}
+
+.info-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-list li{
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+}
+
+.info-list{
+    list-style: none;
+}
+
+.info-icon{
+    height: 20px;
+    margin-right: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .store-outside {
+        height: 300px;
+        margin-bottom: 20px;
+    }
+}

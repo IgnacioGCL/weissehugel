@@ -1,0 +1,35 @@
+<section class="basses-section d-sm-flex flex-column align-items-center">
+    <h2 class="section-title">Basses</h2>
+    <div class="basses">
+        {% for bass in site.basses %}
+        <a class="bass" href="{{bass.url}}">
+            <img class="bass__image" src="{{bass.mainImg}}" style="height:{{bass.height}}" alt="{{bass.model}} bass">
+            <p class="bass__model">{{bass.model}}</p>
+        </a>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="basses-section d-md-flex flex-column align-items-center justify-content-center">
+    <h2 class="section-title">Basses</h2>
+    <div class="basses">
+        {% for bass in site.basses %}
+        {% if forloop.index <= 3 %}
+        <a class="bass" href="{{bass.url}}">
+            <img class="bass__image" src="{{bass.mainImg}}" style="height:{{bass.height}}" alt="{{bass.model}} bass">
+            <p class="bass__model">{{bass.model}}</p>
+        </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+    <div class="basses">
+        {% for bass in site.basses %}
+        {% if forloop.index > 3 %}
+        <a class="bass" href="{{bass.url}}">
+            <img class="bass__image" src="{{bass.mainImg}}" style="height:{{bass.height}}" alt="{{bass.model}} bass">
+            <p class="bass__model">{{bass.model}}</p>
+        </a>
+        {% endif %}
+        {% endfor %}
+    </div>
+</section>

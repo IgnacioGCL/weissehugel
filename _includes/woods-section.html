@@ -1,0 +1,44 @@
+<section class="woods-section d-sm-flex flex-column align-items-center woods-section">
+    <h2 class="title-section">Woods</h2>
+    <div class="d-flex flex-column align-items-center wood-selector-and-prev-container">
+        <div style="height: 100%; width: 50%" class="d-flex flex-column align-items-center justify-content-center">
+            <div id="wood-prev-mobile" class="wood-prev"></div>
+            <label for="mobile-wood-selector">Woods selector</label>
+            <select id="mobile-wood-selector" onchange="selectBackgroundPrev(this.value, 'mobile')" class="wood-selector">
+                <option value="" selected disabled hidden>Select a wood</option>
+                {% for wood in site.woods %}
+                <option value="{{wood.img}}">{{wood.name}}</option>
+                {% endfor %}
+            </select>
+        </div>
+    </div>
+</section>
+
+<section class="woods-section d-md-flex flex-column align-items-center woods-section">
+    <h2 class="title-section">Woods</h2>
+    <div class="d-flex wood-selector-and-prev-container">
+        <div style="height: 100%; width: 50%" class="d-flex flex-column align-items-center justify-content-center f-1">
+            <div id="wood-prev-desktop" class="wood-prev"></div>
+            <p id="wood-text-desktop" class="wood-text">Select a wood</p>
+        </div>
+
+        <div class="wood-prev-selector-container f-1">
+            {% for wood in site.woods %}
+            {% assign remainder = forloop.index | modulo: 10 %}
+            {% if forloop.first == true %}
+            <div class="wood-prev-row">
+            {% endif %}
+                <div onclick="selectBackgroundPrev(this, 'desktop')" class="wood-prev-selector tooltip"
+                    style="background-image: url('{{wood.img}}')">
+                    <span class="tooltiptext">{{wood.name}}</span>
+                </div>
+            {% if remainder == 0 %}
+            </div>
+            <div class="wood-prev-row">
+            {% elsif forloop.last == true %}
+            </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
