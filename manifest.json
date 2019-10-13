@@ -1,0 +1,22 @@
+{
+    "short_name": "Weisse Hügel",
+    "name": "Weisse Hügel",
+    "icons": [
+      {
+        "src": "wh.png",
+        "type": "image/png",
+        "sizes": "48x48"
+      },
+      {
+        "src": "wh.png",
+        "type": "image/png",
+        "sizes": "96x96"
+      },
+      {
+        "src": "wh.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      }
+    ],
+    "start_url": "index.html?launcher=true"
+  }
