@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'Weisse Hugel';
+    src: url('/assets/fonts/Monotype\ Corsiva.ttf');
+}
+
+body {
+    font-family: 'Roboto';
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Roboto';
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-evenly {
+    justify-content: space-evenly;
+}
+
+.f-1 {
+    flex: 1;
+}
+
+.f-2 {
+    flex: 2;
+}
+
+.f-3 {
+    flex: 3;
+}
+
+.title-section {
+    font-size: 2.5em;
+}
+
+.ripple {
+    background-position: center;
+    transition: background 0.8s;
+}
+
+.ripple:hover {
+    background: #272727 radial-gradient(circle, transparent 1%, #272727 1%) center/150000%;
+}
+
+.ripple:active {
+    background-color: #5f5f5f;
+    transition: background 0s;
+}
+
+/* Start page */
+
+body {
+    margin: 0;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+section {
+    min-height: 600px;
+}
+
+hr{
+    height: 1px;
+    margin: 0;
+    border: 0;
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 50%, rgba(0,0,0,1) 100%);
+}
+
+/* section:before{
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: inherit;
+    background: linear-gradient(to right, red, orange);
+} */
+
+.weisse-logo {
+    height: 50px;
+    cursor: pointer;
+}
+
+.go-to-button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.header-content {
+    padding-left: 50px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.to-sections {
+    margin-left: 15px;
+    min-width: 200px;
+}
+
+.to-sections p {
+    font-size: 14px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    min-width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -65px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/* First section */
+
+.intro {
+    background-color: black;
+}
+
+
+.logo-with-guitar {
+    height: 600px;
+}
+
+.appointment-container {
+    width: 500px;
+    color: white;
+}
+
+.appointment {
+    text-align: justify;
+}
+
+/* Guitars section */
+
+.guitars-section {
+    background-color: black;
+    color: white;
+}
+
+.slider {
+    width: 99%;
+    margin-bottom: 50px;
+}
+
+.arrows {
+    color: white;
+    width: 10%;
+    font-size: 2.5em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.arrows:active {
+    border: none;
+}
+
+.inactive {
+    display: none;
+}
+
+.guitars-slider {
+    width: 80%;
+}
+
+.guitar-slide {
+    min-height: 560px;
+}
+
+.guitar-img-container {
+    padding-right: 10%;
+}
+
+.guitar-img {
+    width: 200px;
+}
+
+.guitar-text-section {
+    padding-right: 10%;
+}
+
+.guitar-name {
+    font-size: 2em;
+}
+
+.guitar-description {
+    text-align: justify;
+}
+
+.show-more {
+    color: white;
+}
+
+/* Woods section */
+
+.woods-section {
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+}
+
+.wood-selector-and-prev-container {
+    width: 100%;
+}
+
+#wood-prev {
+    height: 400px;
+    width: 300px;
+    /* border: solid 1px white; */
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+}
+
+#guitar-prev {
+    height: 400px;
+    width: 300px;
+}
+
+#wood-text {
+    font-size: 1.5em;
+}
+
+.wood-prev-selector-container {
+    padding: 20px;
+    height: 400px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wood-prev-selector {
+    height: 35px;
+    width: 35px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.wood-prev-row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+/* Contact section */
+
+.contact-images {
+    height: 300px;
+}
+
+.contact-section {
+    background-color: black;
+    color: white;
+}
+
+/* Footer section */
+
+footer {
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+footer ion-icon {
+    font-size: 25px;
+}
+
+.container-info{
+    width: 60%;
+}
+
+.social-section {
+    width: 250px;
+}
+
+.social-link {
+    background-color: white;
+    color: black;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}
+
+/* .contact-section{
+    width: 350px;
+} */
+
+.contact-section a {
+    text-decoration: underline;
+    color: white;
+}

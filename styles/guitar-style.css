@@ -1,0 +1,25 @@
+/* First section */
+
+.first-guitar-section{
+    padding: 50px 0;
+}
+
+.guitar-title {
+    font-size: 3em;
+    text-align: center;
+}
+
+.main-guitar-img{
+    height: 250px;
+}
+
+.story-container{
+    width: 60%;  
+}
+
+.info-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
