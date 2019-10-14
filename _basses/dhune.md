@@ -1,7 +1,7 @@
 ---
 layout: guitar
-title: Dhune
-model: Dhune
+title: Dhüne
+model: Dhüne
 permalink: /basses/dhune
 url: /basses/dhune
 mainImg: /assets/img/basses/dhune_iv.png

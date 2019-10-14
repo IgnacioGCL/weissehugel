@@ -1,7 +1,7 @@
 ---
 layout: guitar
-title: Ressenzzion
-model: Ressenzzion
+title: Ressenzzio
+model: Ressenzzio
 permalink: /basses/ressenzzio
 url: /basses/ressenzzio
 mainImg: /assets/img/basses/ressenzzio.png
